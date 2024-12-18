@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyManagersLibrary", "MoneyManagersLibrary\MoneyManagersLibrary.csproj", "{9253466C-B7E5-40B6-AD42-8B89DA358A44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyManagersConsole", "..\MoneyManagersConsole\MoneyManagersConsole.csproj", "{EE040BC8-CF5A-4E1D-A966-C98500B21E36}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9253466C-B7E5-40B6-AD42-8B89DA358A44} = {9253466C-B7E5-40B6-AD42-8B89DA358A44}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9253466C-B7E5-40B6-AD42-8B89DA358A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9253466C-B7E5-40B6-AD42-8B89DA358A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9253466C-B7E5-40B6-AD42-8B89DA358A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9253466C-B7E5-40B6-AD42-8B89DA358A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE040BC8-CF5A-4E1D-A966-C98500B21E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE040BC8-CF5A-4E1D-A966-C98500B21E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE040BC8-CF5A-4E1D-A966-C98500B21E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE040BC8-CF5A-4E1D-A966-C98500B21E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77232DC8-F12B-465B-BC8C-31C38FD1065B}
+	EndGlobalSection
+EndGlobal
